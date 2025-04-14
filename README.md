@@ -1,22 +1,58 @@
-# Telegram Abuse Reporting Tool
+🇲🇲 Telegram Abuse Reporting Tool🇲🇲
 
-ဒီ Python-based tool သည် Telegram မှာ တရားမဝင်သောအကောင့်များ၊ မသင့်တော်သောအကြောင်းအရာများ (Spam, Violence, Pornography စသည်တို့) ကို report တင်ရန်အတွက် ဖန်တီးထားခြင်းဖြစ်သည်။
+ဒီ Tool လေးက Telegram မှာ , Spam, Fake Account, Adult Content တို့လိုမျိုး မသင့်တော်တဲ့အကောင့်များကို Report တင်ဖို့အတွက်ဖန်တီးထားတာပါ။  
 
-## လုပ်ဆောင်ချက်များ
-- Telegram account များဖြင့် abusive accounts များကို report တင်နိုင်သည်။
-- Spam, Violence, Pornography စသည့် report reason များကိုရွေးချယ်နိုင်သည်။
-- accounts.txt ဖိုင်မှ တစ်ဆင့် တစ်ခါတည်း အကောင့်များစွာအသုံးပြုနိုင်သည်။
-- ဖိုင်တွင် log သိမ်းဆည်းမှု ပါဝင်သည်။
+Telethon ကိုသုံးပြီး API အတိုင်းသေ​ေ ချာချာ တင်သွားမှာဖြစ်ပြီး၊ အကောင့်တော်တော်များများနဲ့ တစ်ပြိုင်နက်တည်း တင်နိုင်ပါတယ်။
 
-## အသုံးပြုပုံ
-1. Repository ကို clone လုပ်ပါ။
-2. Telegram API ID နှင့် Hash ထည့်ပါ။
-3. `accounts.txt` ဖိုင်ထဲတွင် သုံးမည့်ဖုန်းနံပါတ်များ ထည့်ပါ။
-4. Script ကို run လုပ်ပြီး အညွှန်အတိုင်းသုံးနိုင်ပါပြီ။
 
-## သတိပြုရန်
+ အထူးအင်္ဂါရပ်များ👻
+
+- Multi-account login (အကောင့်များစွာတပြိုင်နက်တည်း)
+- Report reason မျိုးစုံရွေးနိုင်
+- Logs သိမ်းနိုင်
+- Session management
+
+---
+
+အသုံးပြုနည်း💀
+
+1. Python 3 Install လုပ်ပါ။
+   Termux သုံးသူများအတွက် `pkg install python` ဖြင့်တင်နိုင်သည်။
+
+2. လိုအပ်သော Library များ Install လုပ်ပါ။
+   pip install -r requirements.txt
+
+3. Telegram API ID နဲ့ HASH ရယူပါ။
+   (https://my.telegram.org) မှာ login ဝင်ပြီး "API Development" ထဲကနေ ရယူပါ။
+
+4. accounts.txt  ဖိုင်ထဲမှာ သုံးမည့်ဖုန်းနံပါတ်များ 
+(+959...) ထည့်ပါ။
+   ဥပမာ +959......
+        +959....
+ 
+6. main.py ကို run လုပ်ပါ။
+   
+   python main.py
+  
+
+6.Tool စrunတာနဲ့အောက်ပါအတိုင်းထည့်ပါ
+   - API ID, API HASH ထည့်ရန်
+   - Report တင်မည့် username များထည့်ရန်
+   - Report reason ရွေးရန် (Spam, Fake, Adult, etc.)
+   - Report မည့်အကြိမ်ရေရွေးရန်
+
+---
+
+Developer kid
+- Creator: MgKaung  
+- Telegram [@usernamevip1](https://t.me/usernamevip1)
+
+
+
+♥သတိပြုရန်
+
+- Two-Factor Authentication (2FA) ပါတဲ့အကောင့်များကို Tool သုံး၍ login မရနိုင်ပါ။
+- Telegram ကနေ FloodWait တက်တတ်သဖြင့် အချို့အကောင့်များ နားပေးဖို့လိုပါတယ်
+
+⛔
 Telegram ၏ Terms of Service နှင့်အညီသာ tool ကို အသုံးပြုပါ။ မမှန်မကန်သုံးစွဲခြင်းမှ ကြောင့် ဖြစ်လာနိုင်သော ပြဿနာများအတွက် တာဝန်ယူပါမည်မဟုတ်ပါ။
-
-## Developer
-- Author: MgKaung  
-- Telegram: [@usernamevip1](https://t.me/usernamevip1)
