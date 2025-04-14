@@ -1,5 +1,5 @@
 
-![Preview](preview.png)
+![Preview](34a48216cf3329c8c8440e1df3fd65cc.jpg)
 
 
 **🇲🇲 Telegram Abuse Reporting Tool🇲🇲**
