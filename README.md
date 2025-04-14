@@ -1,11 +1,11 @@
-🇲🇲 Telegram Abuse Reporting Tool🇲🇲
+**🇲🇲 Telegram Abuse Reporting Tool🇲🇲**
 
 ဒီ Tool လေးက Telegram မှာ , Spam, Fake Account, Adult Content တို့လိုမျိုး မသင့်တော်တဲ့အကောင့်များကို Report တင်ဖို့အတွက်ဖန်တီးထားတာပါ။  
 
 Telethon ကိုသုံးပြီး API အတိုင်းသေ​ေ ချာချာ တင်သွားမှာဖြစ်ပြီး၊ အကောင့်တော်တော်များများနဲ့ တစ်ပြိုင်နက်တည်း တင်နိုင်ပါတယ်။
 
 
- အထူးအင်္ဂါရပ်များ👻
+**အထူးအင်္ဂါရပ်များ👻**
 
 - Multi-account login (အကောင့်များစွာတပြိုင်နက်တည်း)
 - Report reason မျိုးစုံရွေးနိုင်
@@ -14,7 +14,7 @@ Telethon ကိုသုံးပြီး API အတိုင်းသေ​ေ
 
 ---
 
-အသုံးပြုနည်း💀
+**အသုံးပြုနည်း💀**
 
 1. Python 3 Install လုပ်ပါ။
    Termux သုံးသူများအတွက် `pkg install python` ဖြင့်တင်နိုင်သည်။
@@ -27,7 +27,9 @@ Telethon ကိုသုံးပြီး API အတိုင်းသေ​ေ
 
 4. accounts.txt  ဖိုင်ထဲမှာ သုံးမည့်ဖုန်းနံပါတ်များ 
 (+959...) ထည့်ပါ။
+ 
    ဥပမာ +959......
+
         +959....
  
 6. main.py ကို run လုပ်ပါ။
@@ -43,16 +45,16 @@ Telethon ကိုသုံးပြီး API အတိုင်းသေ​ေ
 
 ---
 
-Developer kid
+**Developer kid**
 - Creator: MgKaung  
 - Telegram [@usernamevip1](https://t.me/usernamevip1)
 
 
 
-♥သတိပြုရန်
+**♥သတိပြုရန်**
 
 - Two-Factor Authentication (2FA) ပါတဲ့အကောင့်များကို Tool သုံး၍ login မရနိုင်ပါ။
 - Telegram ကနေ FloodWait တက်တတ်သဖြင့် အချို့အကောင့်များ နားပေးဖို့လိုပါတယ်
 
-⛔
-Telegram ၏ Terms of Service နှင့်အညီသာ tool ကို အသုံးပြုပါ။ မမှန်မကန်သုံးစွဲခြင်းမှ ကြောင့် ဖြစ်လာနိုင်သော ပြဿနာများအတွက် တာဝန်ယူပါမည်မဟုတ်ပါ။
+
+**Telegram ၏ Terms of Service နှင့်အညီသာ tool ကို အသုံးပြုပါ။ မမှန်မကန်သုံးစွဲခြင်းမှ ကြောင့် ဖြစ်လာနိုင်သော ပြဿနာများအတွက် တာဝန်ယူပါမည်မဟုတ်ပါ။**
