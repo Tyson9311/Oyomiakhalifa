@@ -1,3 +1,7 @@
+
+![Preview](preview.png)
+
+
 **🇲🇲 Telegram Abuse Reporting Tool🇲🇲**
 
 ဒီ Tool လေးက Telegram မှာ , Spam, Fake Account, Adult Content တို့လိုမျိုး မသင့်တော်တဲ့အကောင့်များကို Report တင်ဖို့အတွက်ဖန်တီးထားတာပါ။  
@@ -16,28 +20,31 @@ Telethon ကိုသုံးပြီး API အတိုင်းသေ​ေ
 
 **အသုံးပြုနည်း💀**
 
-1. Python 3 Install လုပ်ပါ။
+1. **Python3 Install လုပ်ပါ။**
    Termux သုံးသူများအတွက် `pkg install python` ဖြင့်တင်နိုင်သည်။
 
-2. လိုအပ်သော Library များ Install လုပ်ပါ။
-   pip install -r requirements.txt
 
-3. Telegram API ID နဲ့ HASH ရယူပါ။
+2. **လိုအပ်သော Library များ Install လုပ်ပါ။**
+
+   `pip install -r requirements.txt`
+
+4. **Telegram API ID နဲ့ HASH ရယူပါ။**
    (https://my.telegram.org) မှာ login ဝင်ပြီး "API Development" ထဲကနေ ရယူပါ။
 
-4. accounts.txt  ဖိုင်ထဲမှာ သုံးမည့်ဖုန်းနံပါတ်များ 
+5. accounts.txt  ဖိုင်ထဲမှာ သုံးမည့်ဖုန်းနံပါတ်များ 
 (+959...) ထည့်ပါ။
  
    ဥပမာ +959......
 
         +959....
  
-6. main.py ကို run လုပ်ပါ။
+6. **main.py ကို run လုပ်ပါ။**
    
-   python main.py
+ 
+   `python main.py`
   
 
-6.Tool စrunတာနဲ့အောက်ပါအတိုင်းထည့်ပါ
+6.**Tool စrunတာနဲ့အောက်ပါအတိုင်းထည့်ပါ**
    - API ID, API HASH ထည့်ရန်
    - Report တင်မည့် username များထည့်ရန်
    - Report reason ရွေးရန် (Spam, Fake, Adult, etc.)
